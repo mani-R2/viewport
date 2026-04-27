@@ -313,7 +313,8 @@ img{
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 1600px) {
+    header, footer{
         background-color: var(--orange);
         padding-left: 5%;
     }
@@ -378,5 +379,6 @@ img{
 
     #three p, #four p, #five p, #six p{
         padding-top: 2em;
-    } */
+    }
+}
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
