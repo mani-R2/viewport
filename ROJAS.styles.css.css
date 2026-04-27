@@ -132,13 +132,14 @@ footer .icon{
     .icon{
         animation: none;
     }
-    
+
     @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
+}
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
 
@@ -192,7 +193,8 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 600px) {
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -217,14 +219,16 @@ img{
     img{
         width: 200px;
         max-width: 200px;
-    } */
+    }
+}
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 900px) {
+    header, footer{
         background-color: var(--black);
         color: var(--white);
     }   
@@ -249,14 +253,16 @@ img{
     #seven{
         grid-column: 3/4;
         grid-row: 3/5;
-    } */
+    }
+}
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
 
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-    /* header, footer{
+@media (min-width: 1200px) {
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -287,7 +293,8 @@ img{
 
     #seven, #eight{
         grid-row: 3/4;
-    } */
+    }
+}
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
